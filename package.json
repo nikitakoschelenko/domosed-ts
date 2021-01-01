@@ -1,0 +1,42 @@
+{
+  "name": "domosed-ts",
+  "version": "1.0.0",
+  "description": "Typescript библиотека для работы с API сервиса «Домосед»",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "ItzNeviKat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzNeviKat/domosed-ts.git"
+  },
+  "keywords": [
+    "domosed",
+    "domosed-api",
+    "domosed-js",
+    "domosed-ts"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "fmt": "eslint ./src --fix",
+    "build": "tsc -p ./",
+    "test": "ts-node ./test"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.6",
+    "@types/koa__router": "^8.0.3",
+    "@types/node": "^14.14.17",
+    "@types/node-fetch": "^2.5.7",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.16.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}

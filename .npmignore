@@ -1,0 +1,11 @@
+src
+test
+node_modules
+yarn.lock
+tsconfig.json
+.idea
+.git
+.gitignore
+.gitattributes
+.env
+.DS_STORE
